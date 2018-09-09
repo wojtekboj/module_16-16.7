@@ -1,0 +1,39 @@
+{
+  "name": "16.6",
+  "version": "1.0.0",
+  "description": "Zadanie 16.6",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode development",
+    "build": "webpack --env production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wojtekboj/module_16-16.6.git"
+  },
+  "author": "Wojciech Bojarczuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wojtekboj/module_16-16.6/issues"
+  },
+  "homepage": "https://github.com/wojtekboj/module_16-16.6#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "optimize-js-plugin": "0.0.4",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "uuid": "^3.3.2",
+    "uuid-v4": "^0.1.0"
+  }
+}
